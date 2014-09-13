@@ -1,0 +1,10 @@
+21:09:13.484 INFO  - Processing command line option -hwspec /home/vens/cpre488/MP-0/system/SDK/SDK_Export/hw/system.xml. 
+21:17:15.164 INFO  - FPGA configured successfully with bitstream "/home/vens/cpre488/MP-0/sw/system_hw_platform/system.bit" 
+21:17:28.501 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:19:22.009 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:19:54.816 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:24:43.026 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+21:24:43.033 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
